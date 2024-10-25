@@ -1,0 +1,14 @@
+.search_byrequest_field{
+    height: 40px !important;
+
+}
+.filter_btn_design{
+    margin-left: 20px !important;
+    /* height: 45px; */
+}
+.box_height{
+    height: 40px !important;
+}
+.MuiTableBody-root .MuiTableCell-root {
+    border-bottom: 1px solid #e7ebf0;
+  }

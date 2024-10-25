@@ -1,0 +1,116 @@
+.header_item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.header_item .custom_search {
+  position: relative;
+  margin: 0px 10px 0px 0px;
+}
+.header_item .custom_search .searchInput {
+  width: 200px;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  height: 34px;
+  font-size: 13px;
+  /* margin-right: 10px; */
+  outline: none;
+  padding: 5px 12px;
+  transition: all 0.5s ease;
+}
+.header_item .custom_search .searchInput:focus {
+  width: 250px !important;
+}
+.header_item .custom_search .search_icon {
+  position: absolute;
+  top: 0;
+  right: 8px;
+}
+.header_item
+  .custom_search
+  .search_icon
+  .css-wx798j-MuiButtonBase-root-MuiIconButton-root {
+  padding: 4px;
+}
+.iconsGroup {
+  margin-right: 10px;
+}
+.notifications {
+  margin-right: 20px;
+}
+
+/* ======= header Navbar =======*/
+.topMenu .css-1lxf6zz-MuiListItem-root {
+  padding: 0px 2px;
+}
+.topMenu .css-1tj6nfe-MuiTypography-root {
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+/* ====menu==== */
+.topMenuList {
+  position: relative;
+}
+
+.topMenuList:hover .subMenu {
+  display: block;
+}
+.submenuWrapper .subMenu {
+  display: none;
+  position: absolute;
+  top: 44px;
+  left: 4px;
+  width: 220px;
+  background: #ffffff;
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  padding: 16px 0px;
+}
+.subMenu .subMenulist {
+  display: block;
+  padding: 5px 14px;
+  color: #555555;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+.subMenu .subMenulist:hover {
+  background-color: #f4f4f4;
+}
+/* ====Mega Menu==== */
+
+.megaMenu {
+  position: absolute;
+  top: 50px;
+  left: 4px;
+  min-width: 100%;
+  background: transparent;
+  transition: all 0.5s ease;
+}
+.megaMenu .megamenu-content {
+  background-color: #ffffff;
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  padding: 16px;
+}
+.megaMenu .megamenu-content .menuListContent {
+  margin: 10px 14px;
+}
+.menuListContent .list-heading {
+  color: 121848;
+  font-size: 16px;
+  font-weight: 600;
+}
+.megaMenu .megamenu-content .subMenulist {
+  display: block;
+  margin: 12px 0px;
+  color: #555555;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 900px) {
+  .topMenu {
+    display: none;
+  }
+}

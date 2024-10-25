@@ -1,0 +1,13 @@
+/* .in-app-call-logs  */
+.in-app-call-logs .appCall_top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+.in-app-call-logs .applog_search {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}

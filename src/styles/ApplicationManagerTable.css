@@ -1,0 +1,248 @@
+.application-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 8px 0px 16px 0px;
+}
+.application-main .application-content {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.application-main .viewIcon {
+  margin-left: 5px;
+}
+.application-btn-area {
+  margin-top: 5px;
+}
+.mainTable .css-khvgs2-MuiTableHead-root .MuiTableCell-root {
+  text-transform: capitalize;
+  white-space: nowrap;
+  font-size: 13px;
+  font-weight: 500;
+}
+.mainTable .MuiTableCell-root {
+  white-space: nowrap;
+  text-transform: capitalize;
+  padding-left: 10px;
+  font-size: 13px;
+  border-bottom: 1px solid #dddddd;
+}
+
+/* ---------------- Table Heading----------- */
+.tableHeading {
+  padding: 14px 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.tableTabWrapper {
+  display: flex;
+  align-items: center;
+}
+.tableTabWrapper .tableTab {
+  display: flex;
+  align-items: center;
+  color: #555555;
+  font-weight: 500;
+  border: 1px solid #dddddd;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+.tableTabWrapper .tableTab.active,
+.tableTabWrapper .tableTab:hover {
+  background-color: #4a7adc;
+  color: #ffffff;
+  border-color: #4a7adc;
+}
+
+/* ------------Quick Snapshoot ----------------- */
+.quickSnap_wrapper {
+  padding: 20px 12px;
+}
+.quickSnap_wrapper .quickTab_main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.quickSnap_wrapper .quickTab_main .quick-tabs {
+  display: flex;
+  align-items: center;
+}
+.quickSnap_wrapper .quickTab_main .quick-tabs .snap-tabs {
+  border: 1px solid #dddddd;
+  font-size: 0.875rem;
+  margin: 0px 3px;
+  padding: 8px 16px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.quickSnap_wrapper .quickTab_main .quick-tabs .snap-tabs.active {
+  background-color: #4a7adc;
+  color: #ffffff;
+  border-color: #4a7adc;
+}
+.quickSnap_wrapper .quick-right-area {
+  display: flex;
+  align-items: center;
+}
+.applicationTrends_graph {
+  padding: 20px;
+}
+
+/* -----Drawer-------------- */
+
+.customize_body {
+  padding: 0px 12px !important;
+  position: relative;
+}
+.custmize_txt {
+  font-size: 18px;
+  font-weight: 600;
+}
+/* .lead_details_main {
+  position: relative;
+  height: 100%;
+} */
+.search .leadDetails {
+  font-weight: 600;
+  margin: 12px 0px;
+  color: #555555;
+}
+
+.selected_column {
+  padding: 10px 0px 10px 10px;
+}
+.selected_column .selected_haeding {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 5px;
+}
+.selected_column .selected_haeding .selected_txt {
+  font-weight: 600;
+  color: #555555;
+}
+.selected_column .selected_haeding .drag_to {
+  color: #cccccc;
+  font-weight: 300;
+}
+.lead_details_main {
+  max-height: 90%;
+  overflow-y: scroll;
+  position: absolute;
+  width: 50%;
+  scrollbar-width: thin;
+}
+.lead_details_main::-webkit-scrollbar {
+  width: 8px;
+}
+
+.lead_details_main::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.3);
+  border-radius: 30px;
+}
+
+.lead_details_main::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid #dddddd;
+  border-radius: 20px;
+}
+.lead_details_main .labalName {
+  border-bottom: 1px solid #ddd;
+  padding: 5px 0px;
+  margin-right: 0px;
+}
+.lead_details_main .labalName:last-child {
+  border-bottom: 0px;
+}
+.selected_column .slt_columns {
+  margin-top: 8px;
+  padding: 16px 0px 16px 16px;
+}
+
+.selected_column .slt_columns .col_selection .column_selected {
+  border: 1px solid #dddddd;
+  padding: 8px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.selected_column .slt_columns .col_selection .column_selected.times {
+  background-color: #edeff0;
+}
+.selected_column .slt_columns .col_selection {
+  position: relative;
+}
+.selected_column .slt_columns .col_selection .close_times {
+  position: absolute;
+  top: 11px;
+  right: 6px;
+  font-size: 18px;
+  cursor: pointer;
+}
+.drawer-header {
+  padding: 14px 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* border-bottom: 1px solid #5048e5; */
+}
+.drawer-header .d_title {
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.column_footer {
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 62px;
+  line-height: 62px;
+  display: flex;
+  justify-content: space-between;
+  padding: 9px 12px;
+  border-top: 1px solid #dddddd;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* ------------------ Form Manager ---------------- */
+.formManager-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 8px;
+}
+.fm_table .css-11wdaqb-MuiTableCell-root {
+  border-color: #e6e8f0;
+  white-space: nowrap;
+}
+.flt_drawerHeader {
+  padding: 14px 14px;
+  border-bottom: 1px solid #dddddd;
+}
+.flt_drawerHeader .filterTxt {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flt_drawerBody {
+  padding: 14px 14px;
+}
+
+/* --------Upload document button ---------- */
+.uploadBtn_area {
+  width: 100%;
+  margin-top: 24px;
+  display: flex;
+  align-items: center;
+}
+.uploadBtn_area button {
+  margin: 8px;
+}

@@ -1,0 +1,4 @@
+.sidebar-scroll > .css-1amu3tr-MuiPaper-root-MuiDrawer-paper {
+  height: 100%;
+  overflow-y: scroll !important;
+}

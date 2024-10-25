@@ -1,0 +1,25 @@
+.document-locker-sub-title{
+    font-size: 16px !important;
+    font-weight: bold !important;
+    margin-top: 30px !important;
+}
+#document-locker-tab-top-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#document-locker-tab-action-and-filter{
+    display: flex;
+    align-items: center;
+    
+}
+.document-locker-button{
+    border: none !important;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px!important;
+    margin-right: 20px !important;
+}
+
+.document-locker-single-document-text{
+    font-size: 15px;
+    font-weight: 420;
+}

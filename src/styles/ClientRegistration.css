@@ -1,0 +1,17 @@
+.client-registration
+  .client-registration-content
+  .rs-picker-default
+  .rs-picker-toggle.rs-btn-lg {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  font-size: 17px;
+  color: #65748b;
+}
+.client-registration
+  .client-registration-content
+  .rs-picker-date
+  .rs-picker-toggle.rs-btn-lg
+  .rs-picker-toggle-caret,
+.rs-picker-date .rs-picker-toggle.rs-btn-lg .rs-picker-toggle-clean {
+  top: 16px;
+}

@@ -1,0 +1,66 @@
+.whatsapp-heading {
+  color: #474e51;
+  font-size: 22px !important;
+  padding-bottom: 10px;
+}
+.basic-settings {
+  padding: 30px 0px 10px 0px;
+}
+.basic-settings .basic-settings-txt {
+  color: #474e51;
+  font-size: 18px;
+  font-weight: 500;
+}
+.save-next {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 20px;
+}
+.save-next .tem-button {
+  margin-left: 10px;
+  min-width: 90px;
+  height: 40px;
+}
+
+/* -----------SMS template-------- */
+.sms-info-main {
+  border: 1px solid #dddddd;
+  border-radius: 8px;
+  margin-top: 24px;
+  padding: 16px 16px 16px 24px;
+  position: relative;
+}
+.sms-info-main::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-left: 6px solid #62b0dc;
+  height: 100%;
+  border-radius: 8px;
+}
+.sms-info-main .info-para {
+  color: #1876aa;
+  font-size: 16px;
+  font-weight: 500;
+  padding-bottom: 12px;
+}
+.sms-info-main .para-content {
+  padding-left: 30px;
+  padding-bottom: 8px;
+  color: #1876aa;
+  font-size: 16px;
+  font-weight: 500;
+  display: flex;
+  align-items: flex-start;
+}
+.sms-info-main .para-content .circle-icons {
+  font-size: 7px;
+  margin-right: 12px;
+  margin-top: 7px;
+}
+.sms-info-main .refers {
+  color: #929292;
+  font-weight: 600;
+}

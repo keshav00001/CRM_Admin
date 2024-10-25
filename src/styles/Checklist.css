@@ -1,0 +1,36 @@
+.checklist_text {
+    font-size: 1.1rem !important;
+    font-weight: 500 !important;
+}
+
+.checklist_text1 {
+    font-size: .9rem !important;
+}
+
+.border {
+    border-bottom: 1px solid rgba(165, 157, 157, 0.664) !important;
+    width: 90%;
+}
+
+.border1 {
+    border-bottom: 1px solid rgba(165, 157, 157, 0.664) !important;
+    width: 100%;
+    margin: 10px !important;
+}
+
+.upload_file {
+    border: 1px solid gray;
+    margin: 20px;
+    text-align: center;
+    padding: 50px 0;
+}
+.upload_file_btn{
+    /* margin: 20px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.upload_icon{
+    font-size: 60px !important;
+    color: #3832a0;
+}

@@ -1,0 +1,124 @@
+/*====================================================
+ Admin Dashboard CSS
+====================================================*/
+
+/*----------------- Score Board -----------------*/
+.admin-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.admin-header h5 {
+  font-size: 22px;
+}
+.admin-header .sync-time {
+  font-size: 13px;
+}
+.admin-bottom {
+  padding: 10px 0;
+  margin-top: 5px;
+}
+.admin-bottom button {
+  margin: 0 5px;
+}
+.header-select {
+  width: 200px;
+  height: 46px;
+}
+.drawer-body {
+  padding: 20px;
+}
+.drawer-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.drawer-item-left {
+  flex: 1;
+}
+.drawer-item-left p {
+  font-size: 12px;
+  color: #92959d;
+}
+.drawer-item-right {
+  width: 100px;
+  text-align: right;
+}
+
+/*----------------- Score Board -----------------*/
+.score-board .score-box {
+  padding: 5px 10px;
+}
+.score-board .score-title {
+  display: flex;
+  align-items: center;
+}
+.score-board .progress-text {
+  position: relative;
+  color: #333333;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+/*----------------- Application Funnel -----------------*/
+.application-funnel .application-funnel-content {
+  padding: 0px 10px;
+  position: relative;
+}
+.application-funnel .card-item {
+  border: 1px solid;
+}
+.application-funnel .paid-funnel {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+}
+.application-funnel .paid-funnel p {
+  font-weight: 600;
+}
+.application-funnel .paid-data-list {
+  background-color: #f8fffe !important;
+  position: relative;
+  overflow: visible;
+}
+.application-funnel .paid-data-list::before {
+  width: 1px;
+  height: 15px;
+  position: absolute;
+  content: "";
+  left: 50%;
+  top: -16px;
+  background-color: #14b8a6;
+  z-index: 99999;
+}
+.application-funnel .funnel-card {
+  margin: 15px 0;
+}
+.application-funnel .unpaid-data-list {
+  background-color: #fffbf6 !important;
+  position: relative;
+  overflow: visible;
+}
+.application-funnel .unpaid-data-list::before {
+  width: 1px;
+  height: 15px;
+  position: absolute;
+  content: "";
+  left: 50%;
+  top: -16px;
+  background-color: #ffb020;
+  z-index: 99999;
+}
+
+.filter-popover-box {
+  padding: 22px 10px 10px 10px;
+}
+.filter-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+/*----------------- Top Performing Channels -----------------*/

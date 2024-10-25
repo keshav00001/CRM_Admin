@@ -1,0 +1,13 @@
+.publish-button {
+  margin: 16px 24px 16px 0px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.publish-button button {
+  min-width: 90px;
+  height: 42px;
+}
+.publish-button .saveBtn {
+  margin: 0px 12px;
+}

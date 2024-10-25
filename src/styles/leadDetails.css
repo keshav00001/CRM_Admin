@@ -1,0 +1,16 @@
+#lead-details-tab-header{
+    
+}
+.lead-details-sub-tabs{
+    padding: 10px 40px 10px 40px!important;
+    text-transform: capitalize !important;
+    min-height: 0 !important;
+    height: 52px !important;
+}
+.lead-details-sub-tabs-active{
+    color: black !important;
+    font-weight: bold !important;
+}
+.lead-details-sub-tabs-icon{
+    font-size: 18px !important;
+}

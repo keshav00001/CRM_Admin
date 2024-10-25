@@ -1,0 +1,33 @@
+#followup-note-tab-top-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#followup-note-tab-action-and-filter{
+    display: flex;
+    align-items: center;
+    
+}
+#followup-note-tab-filter-icon{
+    font-size: 1.7rem;
+    cursor: pointer;
+    color: rgb(75, 73, 73);
+    width: 110%;
+}
+#followup-note-tab-filter-icon:hover{
+    border-radius: 50% !important;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    cursor: pointer !important;
+    width: 120%;
+    color: black;
+}
+#followup-and-note-button-icon{
+    border: none;
+    margin-left: -5px;
+}
+.followup-and-note-button{
+    border: none !important;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px!important;
+}
+
+
